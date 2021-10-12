@@ -1,0 +1,115 @@
+{
+  "itemGroup.mcsaforge.armor": "MC Story Mode Armors",
+
+  "item.mcsaforge.adamantium_impervium_helmet"           : "Adamantium Impervium Helmet",
+  "item.mcsaforge.adamantium_impervium_chestplate"       : "Adamantium Impervium Chestplate",
+  "item.mcsaforge.adamantium_impervium_leggings"         : "Adamantium Impervium Leggings",
+  "item.mcsaforge.adamantium_impervium_boots"            : "Adamantium Impervium Boots",
+
+  "item.mcsaforge.champion_petra_helmet"                 : "Champion Petra Helmet",
+  "item.mcsaforge.champion_petra_chestplate"             : "Champion Petra Chestplate",
+  "item.mcsaforge.champion_petra_leggings"               : "Champion Petra Leggings",
+  "item.mcsaforge.champion_petra_boots"                  : "Champion Petra Boots",
+
+  "item.mcsaforge.dragonsbane_helmet"                    : "Dragonsbane Helmet",
+  "item.mcsaforge.dragonsbane_chestplate"                : "Dragonsbane Chestplate",
+  "item.mcsaforge.dragonsbane_leggings"                  : "Dragonsbane Leggings",
+  "item.mcsaforge.dragonsbane_boots"                     : "Dragonsbane Boots",
+
+  "item.mcsaforge.ellegaard_helmet"                      : "Ellegaard's Helmet",
+  "item.mcsaforge.ellegaard_chestplate"                  : "Ellegaard's Chestplate",
+  "item.mcsaforge.ellegaard_leggings"                    : "Ellegaard's Leggings",
+  "item.mcsaforge.ellegaard_boots"                       : "Ellegaard's Boots",
+
+  "item.mcsaforge.ender_defender_helmet"                 : "Ender Defender Helmet",
+  "item.mcsaforge.ender_defender_chestplate"             : "Ender Defender Chestplate",
+  "item.mcsaforge.ender_defender_leggings"               : "Ender Defender Leggings",
+  "item.mcsaforge.ender_defender_boots"                  : "Ender Defender Boots",
+
+  "item.mcsaforge.enderman_soren_helmet"                 : "Soren's Enderman Suit Helmet",
+  "item.mcsaforge.enderman_soren_chestplate"             : "Soren's Enderman Suit Chestplate",
+  "item.mcsaforge.enderman_soren_leggings"               : "Soren's Enderman Suit Leggings",
+  "item.mcsaforge.enderman_soren_boots"                  : "Soren's Enderman Suit Boots",
+
+  "item.mcsaforge.gabriel_helmet"                        : "Gabriel's Helmet",
+  "item.mcsaforge.gabriel_chestplate"                    : "Gabriel's Chestplate",
+  "item.mcsaforge.gabriel_leggings"                      : "Gabriel's Leggings",
+  "item.mcsaforge.gabriel_boots"                         : "Gabriel's Boots",
+
+  "item.mcsaforge.golden_goliath_helmet"                 : "Golden Goliath Helmet",
+  "item.mcsaforge.golden_goliath_chestplate"             : "Golden Goliath Chestplate",
+  "item.mcsaforge.golden_goliath_leggings"               : "Golden Goliath Leggings",
+  "item.mcsaforge.golden_goliath_boots"                  : "Golden Goliath Boots",
+
+  "item.mcsaforge.golden_goliath_circuitry_helmet"       : "Golden Goliath Circuitry Helmet",
+  "item.mcsaforge.golden_goliath_circuitry_chestplate"   : "Golden Goliath Circuitry Chestplate",
+  "item.mcsaforge.golden_goliath_circuitry_leggings"     : "Golden Goliath Circuitry Leggings",
+  "item.mcsaforge.golden_goliath_circuitry_boots"        : "Golden Goliath Circuitry Boots",
+
+  "item.mcsaforge.harpers_headset_helmet"                : "Harper's Headset",
+
+  "item.mcsaforge.ivor_helmet"                           : "Ivor's Crown",
+  "item.mcsaforge.ivor_chestplate"                       : "Ivor's Chestplate",
+  "item.mcsaforge.ivor_leggings"                         : "Ivor's Leggings",
+  "item.mcsaforge.ivor_boots"                            : "Ivor's Boots",
+
+  "item.mcsaforge.lukas_helmet"                          : "Lukas' Goggles",
+  "item.mcsaforge.lukas_chestplate"                      : "Lukas' Chestplate",
+  "item.mcsaforge.lukas_leggings"                        : "Lukas' Leggings",
+  "item.mcsaforge.lukas_boots"                           : "Lukas' Boots",
+
+  "item.mcsaforge.magnus_helmet"                         : "Magnus' Helmet",
+  "item.mcsaforge.magnus_chestplate"                     : "Magnus' Chestplate",
+  "item.mcsaforge.magnus_leggings"                       : "Magnus' Leggings",
+  "item.mcsaforge.magnus_boots"                          : "Magnus' Boots",
+
+  "item.mcsaforge.ninja_ivor_helmet"                     : "Ivor's Ninja Mask",
+  "item.mcsaforge.ninja_ivor_chestplate"                 : "Ivor's Ninja Chestplate",
+  "item.mcsaforge.ninja_ivor_leggings"                   : "Ivor's Ninja Leggings",
+  "item.mcsaforge.ninja_ivor_boots"                      : "Ivor's Ninja Boots",
+
+  "item.mcsaforge.olivia_helmet"                         : "Olivia's Helmet",
+  "item.mcsaforge.olivia_chestplate"                     : "Olivia's Chestplate",
+  "item.mcsaforge.olivia_leggings"                       : "Olivia's Leggings",
+  "item.mcsaforge.olivia_boots"                          : "Olivia's Boots",
+
+  "item.mcsaforge.petra_helmet"                          : "Petra's Helmet",
+  "item.mcsaforge.petra_chestplate"                      : "Petra's Chestplate",
+  "item.mcsaforge.petra_leggings"                        : "Petra's Leggings",
+  "item.mcsaforge.petra_boots"                           : "Petra's Boots",
+
+  "item.mcsaforge.prismarine_soldier_helmet"             : "Prismarine Soldier Helmet",
+  "item.mcsaforge.prismarine_soldier_chestplate"         : "Prismarine Soldier Chestplate",
+  "item.mcsaforge.prismarine_soldier_leggings"           : "Prismarine Soldier Leggings",
+  "item.mcsaforge.prismarine_soldier_boots"              : "Prismarine Soldier Boots",
+
+  "item.mcsaforge.redstone_riot_helmet"                  : "Redstone Riot Helmet",
+  "item.mcsaforge.redstone_riot_chestplate"              : "Redstone Riot Chestplate",
+  "item.mcsaforge.redstone_riot_leggings"                : "Redstone Riot Leggings",
+  "item.mcsaforge.redstone_riot_boots"                   : "Redstone Riot Boots",
+
+  "item.mcsaforge.shield_of_infinity_helmet"             : "Shield of Infinity Helmet",
+  "item.mcsaforge.shield_of_infinity_chestplate"         : "Shield of Infinity Chestplate",
+  "item.mcsaforge.shield_of_infinity_leggings"           : "Shield of Infinity Leggings",
+  "item.mcsaforge.shield_of_infinity_boots"              : "Shield of Infinity Boots",
+
+  "item.mcsaforge.soren_helmet"                          : "Soren's Hat",
+  "item.mcsaforge.soren_chestplate"                      : "Soren's Chestplate",
+  "item.mcsaforge.soren_leggings"                        : "Soren's Leggings",
+  "item.mcsaforge.soren_boots"                           : "Soren's Boots",
+
+  "item.mcsaforge.star_shield_helmet"                    : "Star Shield Helmet",
+  "item.mcsaforge.star_shield_chestplate"                : "Star Shield Chestplate",
+  "item.mcsaforge.star_shield_leggings"                  : "Star Shield Leggings",
+  "item.mcsaforge.star_shield_boots"                     : "Star Shield Boots",
+
+  "item.mcsaforge.swordbreaker_helmet"                   : "Swordbreaker Helmet",
+  "item.mcsaforge.swordbreaker_chestplate"               : "Swordbreaker Chestplate",
+  "item.mcsaforge.swordbreaker_leggings"                 : "Swordbreaker Leggings",
+  "item.mcsaforge.swordbreaker_boots"                    : "Swordbreaker Boots",
+
+  "item.mcsaforge.tim_helmet"                            : "Tim's Hat",
+  "item.mcsaforge.tim_chestplate"                        : "Tim's Chestplate",
+  "item.mcsaforge.tim_leggings"                          : "Tim's Leggings",
+  "item.mcsaforge.tim_boots"                             : "Tim's Boots"
+}
