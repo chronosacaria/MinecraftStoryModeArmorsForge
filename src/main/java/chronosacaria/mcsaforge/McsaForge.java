@@ -1,6 +1,7 @@
 package chronosacaria.mcsaforge;
 
 import chronosacaria.mcsaforge.registry.ItemRegistry;
+import chronosacaria.mcsaforge.registry.ModLoot;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -35,6 +36,7 @@ public class McsaForge {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ItemRegistry.init();
         ItemRegistry.REGISTRY.register(eventBus);
+        ModLoot.REGISTER.register(eventBus);
 
         eventBus.addListener(this::setup);
         // Register the enqueueIMC method for modloading
