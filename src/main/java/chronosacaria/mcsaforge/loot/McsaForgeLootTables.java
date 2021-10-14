@@ -13,7 +13,6 @@ import net.minecraftforge.common.loot.GlobalLootModifierSerializer;
 import net.minecraftforge.common.loot.LootModifier;
 
 import javax.annotation.Nonnull;
-import java.util.ArrayList;
 import java.util.List;
 
 public class McsaForgeLootTables extends LootModifier {
@@ -27,8 +26,6 @@ public class McsaForgeLootTables extends LootModifier {
     @Nonnull
     @Override
     protected List<ItemStack> doApply(List<ItemStack> generatedLoot, LootContext ctx){
-        List<ItemStack> newLoot = new ArrayList<ItemStack>();
-
         for (ResourceLocation tableLocation : additionalTables) {
             LootTable table = ctx.getLootTable(tableLocation);
             boolean compatible = true;
@@ -42,10 +39,10 @@ public class McsaForgeLootTables extends LootModifier {
             }
 
             if (compatible && table != LootTable.EMPTY_LOOT_TABLE)
-                table.recursiveGenerate(ctx, newLoot::add);
+                table.recursiveGenerate(ctx, generatedLoot::add);
         }
 
-        return newLoot.isEmpty() ? generatedLoot : newLoot;
+        return generatedLoot;
     }
 
     public static class Serializer extends GlobalLootModifierSerializer<McsaForgeLootTables> {

@@ -1,0 +1,25 @@
+{
+  "conditions": [
+    {
+      "condition": "minecraft:alternative",
+      "terms": [
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "chests/jungle_temple"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "chests/jungle_temple_dispenser"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "chests/desert_pyramid"
+        }
+      ]
+    }
+  ],
+  "tables": [
+    "mcsaforge:temple/temple_loot_table"
+  ],
+  "type": "mcsaforge:temple_loot_tables"
+}

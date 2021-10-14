@@ -1,0 +1,25 @@
+{
+  "conditions": [
+    {
+      "condition": "minecraft:alternative",
+      "terms": [
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "chests/stronghold_library"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "chests/stronghold_crossing"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "chests/stronghold_corridor"
+        }
+      ]
+    }
+  ],
+  "tables": [
+    "mcsaforge:stronghold/stronghold_loot_table"
+  ],
+  "type": "mcsaforge:stronghold_loot_tables"
+}

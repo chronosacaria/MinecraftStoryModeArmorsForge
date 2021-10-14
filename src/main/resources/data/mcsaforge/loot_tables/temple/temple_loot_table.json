@@ -1,0 +1,75 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "name": "temple_loot_table",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 1000
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "mcsaforge:shield_of_infinity_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "mcsaforge:shield_of_infinity_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "mcsaforge:shield_of_infinity_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "mcsaforge:shield_of_infinity_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "mcsaforge:star_shield_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "mcsaforge:star_shield_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "mcsaforge:star_shield_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "mcsaforge:star_shield_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "mcsaforge:swordbreaker_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "mcsaforge:swordbreaker_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "mcsaforge:swordbreaker_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "mcsaforge:swordbreaker_boots"
+        }
+      ]
+    }
+  ]
+}

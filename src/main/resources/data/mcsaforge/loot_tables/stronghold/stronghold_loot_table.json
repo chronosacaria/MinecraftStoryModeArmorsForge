@@ -1,0 +1,175 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "name": "stronghold_loot_table",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 1000
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "mcsaforge:dragonsbane_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "mcsaforge:dragonsbane_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "mcsaforge:dragonsbane_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "mcsaforge:dragonsbane_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "mcsaforge:ender_defender_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "mcsaforge:ender_defender_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "mcsaforge:ender_defender_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "mcsaforge:ender_defender_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "mcsaforge:golden_goliath_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "mcsaforge:golden_goliath_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "mcsaforge:golden_goliath_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "mcsaforge:golden_goliath_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "mcsaforge:golden_goliath_circuitry_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "mcsaforge:golden_goliath_circuitry_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "mcsaforge:golden_goliath_circuitry_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "mcsaforge:golden_goliath_circuitry_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "mcsaforge:redstone_riot_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "mcsaforge:redstone_riot_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "mcsaforge:redstone_riot_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "mcsaforge:redstone_riot_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "mcsaforge:adamantium_impervium_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "mcsaforge:adamantium_impervium_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "mcsaforge:adamantium_impervium_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "mcsaforge:adamantium_impervium_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "mcsaforge:champion_petra_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "mcsaforge:champion_petra_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "mcsaforge:champion_petra_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "mcsaforge:champion_petra_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "mcsaforge:prismarine_soldier_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "mcsaforge:prismarine_soldier_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "mcsaforge:prismarine_soldier_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "mcsaforge:prismarine_soldier_boots"
+        }
+      ]
+    }
+  ]
+}

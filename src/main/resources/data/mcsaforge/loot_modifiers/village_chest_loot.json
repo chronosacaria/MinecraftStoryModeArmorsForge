@@ -1,0 +1,17 @@
+{
+  "conditions": [
+    {
+      "condition": "minecraft:alternative",
+      "terms": [
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "chests/village/village_weaponsmith"
+        }
+      ]
+    }
+  ],
+  "tables": [
+    "mcsaforge:village/village_loot_table"
+  ],
+  "type": "mcsaforge:village_loot_tables"
+}

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "entries": [
+    "mcsaforge:village_chest_loot",
+    "mcsaforge:stronghold_chest_loot",
+    "mcsaforge:temple_chest_loot"
+  ]
+}
