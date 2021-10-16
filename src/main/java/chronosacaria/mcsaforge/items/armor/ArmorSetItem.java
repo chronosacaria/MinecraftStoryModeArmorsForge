@@ -26,7 +26,7 @@ public class ArmorSetItem extends ArmorItem {
     protected final Multimap<Attribute, AttributeModifier> attributeModifiers;
     protected final ArmorSets set;
     public ArmorSetItem(ArmorSets set, EquipmentSlotType equipmentSlotType) {
-        super(set, equipmentSlotType, new Item.Properties().group(ItemGroup.COMBAT));
+        super(set, equipmentSlotType, new Item.Properties().group(McsaForge.MCSA_FORGE_GROUP));
         this.set = set;
 
         this.damageReduceAmount = set.getDamageReductionAmount(equipmentSlotType);

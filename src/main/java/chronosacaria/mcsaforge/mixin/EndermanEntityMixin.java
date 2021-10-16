@@ -1,9 +1,6 @@
 package chronosacaria.mcsaforge.mixin;
 
-import chronosacaria.mcsaforge.collections.ArmorCollection;
-import chronosacaria.mcsaforge.items.armor.ArmorSets;
 import chronosacaria.mcsaforge.registry.ArmorRegistry;
-//import chronosacaria.mcsaforge.registry.ItemRegistry;
 import net.minecraft.entity.monster.EndermanEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.inventory.EquipmentSlotType;
@@ -14,13 +11,23 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 @Mixin(EndermanEntity.class)
-public abstract class EndermanEntityMixin{
+public class EndermanEntityMixin{
 
-    @Inject(method = "shouldAttackPlayer", at = @At("HEAD"), cancellable = true, remap = false)
-    private void shouldAttackPlayer(PlayerEntity playerEntity, CallbackInfoReturnable<Boolean> cir){
+    @Inject(method = "shouldAttackPlayer", at = @At(value = "HEAD"), cancellable = true, remap = false)
+    private void endermanCancelAttackMixin(PlayerEntity playerEntity, CallbackInfoReturnable<Boolean> cir){
         ItemStack helmetStack = playerEntity.getItemStackFromSlot(EquipmentSlotType.HEAD);
+        ItemStack chestplateStack = playerEntity.getItemStackFromSlot(EquipmentSlotType.CHEST);
+        ItemStack leggingsStack = playerEntity.getItemStackFromSlot(EquipmentSlotType.LEGS);
+        ItemStack bootsStack = playerEntity.getItemStackFromSlot(EquipmentSlotType.FEET);
 
-        if (helmetStack.getItem() == ArmorRegistry.ADAMANTIUM_ARMOR.getHelmet()){
+        if (helmetStack.getItem() == ArmorRegistry.ENDERMAN_SOREN_ARMOR.getHelmet()
+                && chestplateStack.getItem() == ArmorRegistry.ENDERMAN_SOREN_ARMOR.getChestplate()
+                && leggingsStack.getItem() == ArmorRegistry.ENDERMAN_SOREN_ARMOR.getLeggings()
+                && bootsStack.getItem() == ArmorRegistry.ENDERMAN_SOREN_ARMOR.getBoots()
+                || helmetStack.getItem() == ArmorRegistry.ENDER_DEFENDER.getHelmet()
+                && chestplateStack.getItem() == ArmorRegistry.ENDER_DEFENDER.getChestplate()
+                && leggingsStack.getItem() == ArmorRegistry.ENDER_DEFENDER.getLeggings()
+                && bootsStack.getItem() == ArmorRegistry.ENDER_DEFENDER.getBoots()){
             cir.setReturnValue(false);
         }
     }

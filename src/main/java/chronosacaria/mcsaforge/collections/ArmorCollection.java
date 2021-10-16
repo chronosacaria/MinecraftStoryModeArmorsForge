@@ -57,21 +57,4 @@ public class ArmorCollection<T extends ArmorSetItem> {
     public List<T> getArmor() {
         return ImmutableList.of(getHelmet(), getChestplate(), getLeggings(), getBoots());
     }
-
-   //public static void init(){
-   //    for (ArmorSets set : ArmorSets.values()){
-   //        EnumSet<EquipmentSlotType> slotTypes;
-
-   //        switch (set){
-   //            case HARPERS_HEADSET:
-   //                //case WHITE_PUMPKIN:
-   //                slotTypes = EnumSet.of(EquipmentSlotType.HEAD);
-   //                break;
-   //            default:
-   //                slotTypes = EnumSet.of(EquipmentSlotType.HEAD, EquipmentSlotType.CHEST, EquipmentSlotType.LEGS,
-   //                        EquipmentSlotType.FEET);
-   //        }
-   //        registerArmorCollection(set, slotTypes);
-   //    }
-   //}
 }
