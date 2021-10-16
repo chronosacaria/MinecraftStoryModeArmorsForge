@@ -12,6 +12,11 @@
         {
           "type": "minecraft:item",
           "weight": 100,
+          "name": "mcsaforge:harpers_headset_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
           "name": "mcsaforge:ellegaard_helmet"
         },
         {

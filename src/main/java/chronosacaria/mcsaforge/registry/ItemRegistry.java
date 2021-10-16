@@ -1,9 +1,10 @@
-package chronosacaria.mcsaforge.registry;
+/*package chronosacaria.mcsaforge.registry;
 
 import chronosacaria.mcsaforge.McsaForge;
 import chronosacaria.mcsaforge.items.armor.ArmorSetItem;
 import chronosacaria.mcsaforge.items.armor.ArmorSets;
 import net.minecraft.inventory.EquipmentSlotType;
+import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -19,7 +20,7 @@ public class ItemRegistry {
     public static final EnumMap<ArmorSets, EnumMap<EquipmentSlotType, Item>> armorItems =
             new EnumMap<>(ArmorSets.class);
 
-    protected static String armorID(ArmorSets set, EquipmentSlotType slotType) {
+    public static String armorID(ArmorSets set, EquipmentSlotType slotType) {
         String slotID;
         switch (slotType) {
             case HEAD:
@@ -66,3 +67,4 @@ public class ItemRegistry {
         }
     }
 }
+*/

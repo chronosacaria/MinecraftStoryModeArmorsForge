@@ -25,8 +25,7 @@ public class ArmorSetItem extends ArmorItem {
     private final float toughness;
     protected final Multimap<Attribute, AttributeModifier> attributeModifiers;
     protected final ArmorSets set;
-
-    public ArmorSetItem(ArmorSets set, EquipmentSlotType equipmentSlotType){
+    public ArmorSetItem(ArmorSets set, EquipmentSlotType equipmentSlotType) {
         super(set, equipmentSlotType, new Item.Properties().group(ItemGroup.COMBAT));
         this.set = set;
 
@@ -43,6 +42,7 @@ public class ArmorSetItem extends ArmorItem {
         ArmorStats armorStats = McsaForgeConfig.config.armorStats.get(set);
         this.attributeModifiers = builder.build();
     }
+
 
     @Override
     public Multimap<Attribute, AttributeModifier> getAttributeModifiers(EquipmentSlotType slotType){

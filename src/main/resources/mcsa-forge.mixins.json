@@ -5,6 +5,7 @@
   "compatibilityLevel": "JAVA_8",
   "refmap": "mcsaforge.refmap.json",
   "mixins": [
+    "EndermanEntityMixin"
   ],
   "client": [
   ],

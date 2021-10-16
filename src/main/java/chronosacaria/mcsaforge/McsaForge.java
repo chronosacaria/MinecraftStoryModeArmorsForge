@@ -1,9 +1,12 @@
 package chronosacaria.mcsaforge;
 
-import chronosacaria.mcsaforge.registry.ItemRegistry;
+import chronosacaria.mcsaforge.collections.ArmorCollection;
+import chronosacaria.mcsaforge.groups.McsaForgeGroup;
 import chronosacaria.mcsaforge.registry.ModLoot;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -28,14 +31,19 @@ public class McsaForge {
     // Directly reference a log4j logger.
     public static final String MODID = "mcsaforge";
 
+    public static ResourceLocation ID (String path) {
+        return new ResourceLocation(MODID, path);
+    }
+
     private static final Logger LOGGER = LogManager.getLogger();
+
+    public static final ItemGroup MCSA_FORGE_GROUP = new McsaForgeGroup();
 
 
     public McsaForge() {
         // Register the setup method for modloading
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
-        ItemRegistry.init();
-        ItemRegistry.REGISTRY.register(eventBus);
+        //ArmorCollection.init();
         ModLoot.REGISTER.register(eventBus);
 
         eventBus.addListener(this::setup);
