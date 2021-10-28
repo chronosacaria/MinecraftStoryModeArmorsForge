@@ -20,6 +20,7 @@ public enum ArmorSets implements IArmorMaterial {
             25,
             ITEM_ARMOR_EQUIP_DIAMOND,
             () -> {return Ingredient.fromItems(Items.DIAMOND);}),
+
     CHAMPION_PETRA("championpetra", "champion_petra",
             37,
             25,
@@ -151,6 +152,7 @@ public enum ArmorSets implements IArmorMaterial {
             25,
             ITEM_ARMOR_EQUIP_DIAMOND,
             () -> {return Ingredient.fromItems(Items.DIAMOND);});
+
     //WHITE_PUMPKIN("whitepumpkin", "white_pumpkin",
     //        25,
     //        25,
@@ -209,7 +211,6 @@ public enum ArmorSets implements IArmorMaterial {
                 return Rarity.UNCOMMON;
         }
     }
-
 
     @Override
     public int getDurability(EquipmentSlotType slotIn) {

@@ -13,8 +13,8 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 @Mixin(EndermanEntity.class)
 public class EndermanEntityMixin{
 
-    @Inject(method = "shouldAttackPlayer", at = @At(value = "HEAD"), cancellable = true, remap = false)
-    private void endermanCancelAttackMixin(PlayerEntity playerEntity, CallbackInfoReturnable<Boolean> cir){
+    @Inject(method = "shouldAttackPlayer", at = @At(value = "HEAD"), cancellable = true)
+    private void mcsaForge_EndermanCancelAttackMixin(PlayerEntity playerEntity, CallbackInfoReturnable<Boolean> cir){
         ItemStack helmetStack = playerEntity.getItemStackFromSlot(EquipmentSlotType.HEAD);
         ItemStack chestplateStack = playerEntity.getItemStackFromSlot(EquipmentSlotType.CHEST);
         ItemStack leggingsStack = playerEntity.getItemStackFromSlot(EquipmentSlotType.LEGS);

@@ -21,7 +21,7 @@ modId="mcsaforge" #mandatory
 # see the associated build.gradle script for how to populate this completely automatically during a build
 version="${file.jarVersion}" #mandatory
 # A display name for the mod
-displayName="Mcsa Forge" #mandatory
+displayName="MC Story Mode Armor - Forge" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification <here>
 #updateJSONURL="http://myurl.me/" #optional
 # A URL for the "homepage" for this mod, displayed in the mod UI
@@ -34,7 +34,9 @@ displayName="Mcsa Forge" #mandatory
 authors="chronosacaria" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-
+Adds more than 20 new armor sets to the game ranging from the Dragonsbane to Tim's Armor. Almost all
+  of these items can be found in chests scattered about the world, but mostly in villages and strongholds. You can
+  also craft Soren's Enderman Suit for some added protection against endermen.
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.mcsa-forge]] #optional
@@ -53,6 +55,6 @@ description='''
    modId="minecraft"
    mandatory=true
    # This version range declares a minimum of the current minecraft version up to but not including the next major version
-   versionRange="[1.16.5,1.17)"
+   versionRange="[1.16.3,1.17)"
    ordering="NONE"
    side="BOTH"

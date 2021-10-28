@@ -3,9 +3,9 @@
   "minVersion": "0.8",
   "package": "chronosacaria.mcsaforge.mixin",
   "compatibilityLevel": "JAVA_8",
-  "refmap": "mcsaforge.refmap.json",
+  "refmap": "mcsa-forge.mixins.refmap.json",
   "mixins": [
-
+    "EndermanEntityMixin"
   ],
   "client": [
   ],
