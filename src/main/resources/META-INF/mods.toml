@@ -37,7 +37,7 @@ description='''
 Adds more than 20 new armor sets to the game ranging from the Dragonsbane to Tim's Armor. Almost all of these items can be found in chests scattered about the world, but mostly in villages and strongholds. You can also craft Soren's Enderman Suit for some added protection against endermen.'''
 
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
-[[dependencies.mcsa-forge]] #optional
+[[dependencies.mcsaforge]] #optional
    # the modid of the dependency
    modId="forge" #mandatory
    # Does this dependency have to exist - if not, ordering below must be specified
@@ -49,10 +49,14 @@ Adds more than 20 new armor sets to the game ranging from the Dragonsbane to Tim
    # Side this dependency is applied on - BOTH, CLIENT or SERVER
    side="BOTH"
 # Here's another dependency
-[[dependencies.mcsa-forge]]
+[[dependencies.mcsaforge]]
    modId="minecraft"
    mandatory=true
    # This version range declares a minimum of the current minecraft version up to but not including the next major version
    versionRange="[1.16.5,1.17)"
    ordering="NONE"
    side="BOTH"
+[[dependencies.mcsaforge]]
+   modId="cloth-config"
+   mandatory=true
+   versionRange="[4.11.26,)"
