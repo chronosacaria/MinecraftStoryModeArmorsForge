@@ -111,5 +111,8 @@
   "item.mcsaforge.tim_helmet"                            : "Tim's Hat",
   "item.mcsaforge.tim_chestplate"                        : "Tim's Chestplate",
   "item.mcsaforge.tim_leggings"                          : "Tim's Leggings",
-  "item.mcsaforge.tim_boots"                             : "Tim's Boots"
+  "item.mcsaforge.tim_boots"                             : "Tim's Boots",
+
+  "block.mcsaforge.white_pumpkin"                        : "White Pumpkin",
+  "block.mcsaforge.carved_white_pumpkin"                 : "Carved White Pumpkin"
 }

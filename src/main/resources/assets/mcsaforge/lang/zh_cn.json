@@ -111,5 +111,8 @@
   "item.mcsaforge.tim_helmet"                            : "头盔的Tim",
   "item.mcsaforge.tim_chestplate"                        : "胸甲的Tim",
   "item.mcsaforge.tim_leggings"                          : "护腿的Tim",
-  "item.mcsaforge.tim_boots"                             : "靴子的Tim"
+  "item.mcsaforge.tim_boots"                             : "靴子的Tim",
+
+  "block.mcsaforge.white_pumpkin"                        : "白色南瓜",
+  "block.mcsaforge.carved_white_pumpkin"                 : "雕刻过的白色南瓜"
 }
