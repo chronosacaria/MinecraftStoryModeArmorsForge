@@ -34,10 +34,8 @@ displayName="MC Story Mode Armor - Forge" #mandatory
 authors="chronosacaria" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-Adds more than 20 new armor sets to the game ranging from the Dragonsbane to Tim's Armor. Almost all
-  of these items can be found in chests scattered about the world, but mostly in villages and strongholds. You can
-  also craft Soren's Enderman Suit for some added protection against endermen.
-'''
+Adds more than 20 new armor sets to the game ranging from the Dragonsbane to Tim's Armor. Almost all of these items can be found in chests scattered about the world, but mostly in villages and strongholds. You can also craft Soren's Enderman Suit for some added protection against endermen.'''
+
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.mcsa-forge]] #optional
    # the modid of the dependency

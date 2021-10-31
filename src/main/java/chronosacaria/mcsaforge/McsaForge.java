@@ -2,6 +2,8 @@ package chronosacaria.mcsaforge;
 
 import chronosacaria.mcsaforge.groups.McsaForgeGroup;
 import chronosacaria.mcsaforge.registry.ArmorRegistry;
+import chronosacaria.mcsaforge.registry.BlockRegistry;
+import chronosacaria.mcsaforge.registry.ItemsRegistry;
 import chronosacaria.mcsaforge.registry.ModLoot;
 import net.minecraft.item.ItemGroup;
 import net.minecraftforge.common.MinecraftForge;
@@ -24,6 +26,8 @@ public class McsaForge {
         // Register the setup method for modloading
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
         //ArmorCollection.init();
+        BlockRegistry.register(eventBus);
+        ItemsRegistry.register(eventBus);
         ModLoot.REGISTER.register(eventBus);
         ArmorRegistry.ARMOR.register(eventBus);
         // Register ourselves for server and other game events we are interested in
