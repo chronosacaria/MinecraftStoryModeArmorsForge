@@ -1,6 +1,8 @@
 package chronosacaria.mcsaforge.registry;
 
 import chronosacaria.mcsaforge.McsaForge;
+import chronosacaria.mcsaforge.blocks.CarvedWhitePumpkinBlock;
+import chronosacaria.mcsaforge.blocks.WhitePumpkinBlock;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -18,10 +20,10 @@ public class BlockRegistry {
             McsaForge.MODID);
 
     public static final RegistryObject<Block> CARVED_WHITE_PUMPKIN = registryObject("carved_white_pumpkin",
-            () -> new Block(AbstractBlock.Properties.create(Material.ORGANIC).harvestLevel(0).setRequiresTool()));
+            () -> new CarvedWhitePumpkinBlock(AbstractBlock.Properties.create(Material.ORGANIC).harvestLevel(0).setRequiresTool()));
 
     public static final RegistryObject<Block> WHITE_PUMPKIN = registryObject("white_pumpkin",
-            () -> new Block(AbstractBlock.Properties.create(Material.ORGANIC).harvestLevel(0).setRequiresTool()));
+            () -> new WhitePumpkinBlock(AbstractBlock.Properties.create(Material.ORGANIC).harvestLevel(0).setRequiresTool()));
 
     private static <T extends Block>RegistryObject<T> registryObject(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

@@ -3,6 +3,7 @@
   "textures": {
     "top": "mcsaforge:block/white_pumpkin_top",
     "front": "mcsaforge:block/white_carved_pumpkin",
-    "side": "mcsaforge:block/white_pumpkin_side"
+    "side": "mcsaforge:block/white_pumpkin_side",
+    "bottom": "mcsaforge:block/white_pumpkin_side"
   }
 }
